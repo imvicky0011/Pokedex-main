@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.titleSec{
+  background-color: rgb(82, 62, 172);
+  color: white;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleSec input{
+  width: 30%;
+  height:40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.titleSec button{
+    width: 15%;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.titleSec button:hover{
+  background-color: black;
+  color: rgb(82, 62, 172);
+  cursor: pointer;
+}
+
+.pokeinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(177, 172, 172);
+  height: 80%;
+}
+.pokeinfo h3{
+  margin: 5px;
+}
+.pokeinfo h1{
+  margin-bottom: 0%;
+  color:green;
+  text-transform: uppercase;
+}
+.pokeinfo img{
+  width: 200px;
+  height: 200px;
+  margin: 0%;
+}
